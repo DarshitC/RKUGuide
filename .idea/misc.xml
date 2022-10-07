@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/drawable/round_back_dark_blue5_15.xml" value="0.1455" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/drawable/round_back_primary_15.xml" value="0.1455" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_about_dept.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_about_developer.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_ayurvedic.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_canteen.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_city.xml" value="0.15" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_hostel.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_library.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_map.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_other.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_otp_authentication.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_physio.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_signin.xml" value="0.22" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_soe.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_som.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_sop.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_sos.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_splash_screen.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/activity_ss_gym.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/fragment_best_food.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/fragment_best_place.xml" value="0.18" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/fragment_boys_hostel.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/fragment_girls_hostel.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/layout/soecourses.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/menu/menu.xml" value="0.209375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/RKUGuide/app/src/main/res/menu/navigation_menu.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

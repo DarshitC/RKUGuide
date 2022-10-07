@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">RKU Guide</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Details Of Ayurvedic-->
+    <string name="aboutAyurvedic">➠ Life is getting faster and faster day by day so as the rate of
+        increment in unpredictable diseases around human beings. The number of remediless
+        diseases is increasing with a higher rate. But there is a path through which these
+        incurable diseases can be cured. In between the busy lifestyles, there exists a way
+        through which the life, health, mind, body and heart remain free from unwanted damage,
+        incurable diseases.
+        \n\n➠ RK University knows the value of this Traditional Indian System of Medicine
+        (Ayurveda) which is precious thing for mankind. Modern techniques of learning,
+        practical knowledge for every single topic, laboratories with high quality equipments
+        and well qualified faculties, give the students a perfect platform to build their
+        career as BAMS (Bachelor of Ayurvedic Medicine And Surgery) and help them becoming a
+        successful professional in Ayurveda sector. Several numbers of medical camps,
+        seminars, health awareness programs, interaction with globally known personalities
+        of Ayurveda and continuous practical knowledge provided by Ayurvedic College
+        and Hospital, give the right platform to the students to learn and develop
+        themselves in Ayurveda field. Ayurvedic College and Hospital also has one of the
+        most modern libraries in Gujarat region which provides the best resources of
+        Ayurveda to the students.
+    </string>
+    <string name="ayurvedicCourse">1. Bachelor Of Ayurvedic Medicine And Surgery</string>
+
+
+    <!-- TODO: Details Of BestPlace-->
+    <string name="aboutAnalgadh">➠ This is an off beat location, a beautiful and peaceful attraction and one of
+                the top places near Rajkot. Analgadh hill is a popular weekend getaway and an escape
+                from the chaos of the city.  You can capture the sweeping views of the picture-perfect
+                surroundings. You can also find an ancient Hindu temple where a number of devotees
+                flock every year.
+                \n\n➠ You can also explore top adventure activities including hiking, trekking and cycling
+                besides engaging yourself in photography to capture the stunning greenery.
+                \n\n➠ Location: Analgadh, Gujarat
+                \n➠ Entry Fees: Free
+                \n➠ Ideal for: Family and Kids
+                \n➠ Opening hours: Anytime
+    </string>
+
+    <string name="aboutIshwariya">➠ Located in the city, Ishwariya Park is a popular place inaugurated
+                in the year 2008. It is a 77 acre attraction that attracts a lot of tourists who
+                can enjoy boating, picnic and multiple outdoor games. Best visited during autumn
+                or spring season, if you are looking for a place to relax, then this is built for
+                you! There is a water fountain, which is one of the major attraction inside the park.
+                \n\n➠ Location: Rajkot, Gujarat 360006
+                \n➠ Entry Fees: INR 10 for kids, INR 20 for adults
+                \n➠ Ideal for: Picnic
+                \n➠ Opening hours: 1 pm to 8 pm
+    </string>
+
+    <string name="aboutPraduman">➠ Located near Lalpari lake in Rajkot, this park is one of the famous places 
+                in Rajkot. The park is spread across an area of 137 acres and offers many species 
+                of animals and plants. If you are visiting Rajkot with your family, then you must 
+                visit this place for a soul-satisfying experience.
+                \n\n➠ Location: Pradhyuman Park, Rajkot, Gujarat 360003
+                \n➠ Entry Fees: INR 10 for adults, INR 5 for children
+                \n➠ Ideal for: Family outing
+                \n➠ Opening hours: 9 am to 6 pm
+    </string>
+
+    <string name="aboutLalPari">➠ A few kilometres from Rajkot city is Lal Pari Lake, another picturesque
+                locale that’s one of the most terrific picnic spots in Gujarat. It’s among the more
+                popular tourist places near Rajkot as like Aji Dam, it attracts various migratory
+                birds who put on quite a show.
+                \n\n➠ Location: Navagam, Rajkot, Gujarat 360003
+                \n➠ Entry Fees: Free
+                \n➠ Ideal for: Leisure
+                \n➠ Opening Hours: 9 am to 6 pm
+    </string>
+
+    <string name="aboutNyari">➠ When you want to take a break from museums, we recommend heading to Nyari Dam,
+                a scenic Rajkot place to visit that’s perfect for a picnic. It’s located five
+                kilometres from Rajkot and although frequented by tourists and locals, it still
+                retains a peaceful ambience. The views are lovely and if you stay till evening you
+                can catch a beautiful sunset. It is one of the most romantic tourist places in Rajkot
+                for couples. In fact, you can find one of the best hotels in Gujarat here.
+                \n\n➠ Location: Nyari Dam Rd, Rajkot, Gujarat  360005
+                \n➠ Entry Fees: Free
+                \n➠ Ideal for: Leisure
+                \n➠ Opening Hours: 24 hours
+    </string>
+
+    <!-- TODO: Details Of BestFood-->
+    <string name="aboutGathiya">➠ Ganthiya is a special dish of Gujarat. It makes the best combination
+        with sweet chutney and chilly. It is the best side dish with tea or coffee during breakfast
+        or snack time. It is delicious and healthy.
+    </string>
+
+    <string name="aboutDabeli">➠ Dabeli is the most loved snack item of all the people all over 
+        the country. Dabeli marks its origin from Gujarat. It is a delicacy which is like Vada pav 
+        of Maharashtra, but the main difference is that instead of Vada, they put mashed potato, 
+        groundnut, spices, pomegranates, dates, and tamarind. It is tasty and healthy too.
+    </string>
+
+    <string name="aboutGhu">➠ Ghughra is a sweet dish from Gujarat which is loved by all 
+        the Gujarati’s. People make this dish during festivals and other occasions. It has some
+        sweet stuffing coated with the dough. It is cut in the shape of half moon and is baked. 
+        It is delicious and healthy too.
+    </string>
+
+    <string name="aboutDal">➠ Dal Pakwan is one of the most famous Sindhi breakfast recipe. 
+        Dal pakwan is basically chana dal served with pakwan (crisp fried Indian bread).
+    </string>
+
+    <string name="aboutBhungada">➠ Bhungara Bateta  is a mad street food of Rajkot.
+        It is spicy with red gravy. Additionally, it contains a mild sweet flavour.
+    </string>
+
+    <!-- TODO: Details Of Hostel-->
+    <string name="aboutBoysHostel">The hostels are well maintained. The hostel building is having
+                construction and maintenance in order to accommodate more people and provide new
+                facilities. We have 3 seater rooms with attached washrooms, washing machines on
+                each floor, badminton court, table tennis.
+    </string>
+    <string name="aboutGirlsHostel">Hostels are good. We have 4 room mate in single room.
+        One table is provided in room. One bed is also provided. Two shelfs are provided for putting
+        some books. One almira is also provided.
+    </string>
+    <string name="hostelRules">➠ A student must abide by the Hostel Policy, Rules and Code od Conduct at the
+                time of admission to the hostel.\n\n
+                ➠ Room allocation is done by the warden based on the choice of the student or/end
+                availability in 04/06/07 sharing rooms.\n\n
+                ➠ Transfer of room is to be done with official process and authorized by the worden based
+                on availability\n\n
+                ➠ All the furniture will be provided by the hostel in-charge. The student will incur if any
+                item is found damaged or missing from their room due to careless/negligent handling.\n\n
+                ➠ Electric appliances shall not be permitted in the room, defiance of which shall enable
+                the worden/Campus Administrator to confiscate the gadget forthwith (e.g. iron, induction stove.)\n\n
+                ➠ Campus administration like warden/security may come and check your room at any time.\n\n
+                ➠ Vehicles are not allowed inside the hostel premises for the hosteler. If student want
+                to keep the vehicle, need to park at general parking area which is outside of the campus.\n\n
+                ➠ Hostel authorities can terminate the occupancy in case of willful disobedience or
+                defiance of authority . non - observance of hostel rules , causing damage to person
+                or property or anti - social , anti - national or undesirable activities as Ragging ,
+                Gambling , Alcohol / Drugs / Smoking , Misuse of Internet and Online social media ,
+                Firearms , Pets , cooking inside the room , political and communal activities etc.\n\n
+                ➠ During the vacation student need to keep all the things into the locker.\n\n
+                ➠ Students need to mark his / her signature on the attendance muster between
+                08:00 pm to 9:30 pm ( Based on the allocated time by warden ) in the presence of warden.\n\n
+                ➠ Student can go outside with permission of warden ( Gate Pass ) once in a week.
+                In such case student need to return at campus on or before 07:00 pm.\n\n
+                ➠ The student is permitted to go outstation for participating in various competitions
+                only after submitting proof and application along with parent\'s consent to the
+                warden and getting permission of the warden.\n\n
+                ➠ Students need to return from outstation before 09:00 pm ( Based on the given
+                time by warden ) , after which gates will be closed . ( In case of late arrival ,
+                student need to inform to warden and take prior permission ).\n\n
+                ➠ Visitors / Parents are allowed to visit a student only in the visitor\'s lobby on
+                the service floor between 9:00 am to 6:00 pm . Parents are not allowed to visit room.\n\n
+                ➠ Strict silence shall be observed in hostel from 12.00 midnight to 6.00 pm.
+                Care shall be always taken to ensure that music / loud talking is not audible
+                outside the room . Any manner of festivities and noise making / celebrations ,
+                which may cause disturbance to other inmates in the hostel premises , will not
+                be allowed.\n\n
+                ➠ Strict silence shall be observed in hostel from 12.00 midnight to 6.00 pm.
+                Care shall be always taken to ensure that music / loud talking is not audible
+                outside the room . Any manner of festivities and noise making / celebrations ,
+                which may cause disturbance to other inmates in the hostel premises , will
+                not be allowed.\n\n
+                ➠ The student shall keep their rooms , veranda , and surrounding areas tidy ,
+                neat , and clean always and shall not throw anything including trash , in such
+                places or any premises in the hostel , except in the dustbin or the place
+                specifically provided for the said purpose.\n\n
+                ➠ The student shall always treat the hostel staff , security , and housekeeping
+                staff of the hostel with due courtesy . Service of the housekeeping staff shall
+                not be utilized for private or personal work . No tips in cash or kind should
+                be given to the staff of the hostel.\n\n
+                ➠ In case of medical emergency , student should contact to warden.\n\n
+                ➠ All the rights are reserved by the management.
+    </string>
+
+</resources>
