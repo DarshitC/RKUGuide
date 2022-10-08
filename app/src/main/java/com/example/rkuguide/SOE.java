@@ -26,10 +26,10 @@ public class SOE extends AppCompatActivity {
 
         ImageSlider imageSlider = findViewById(R.id.slider);
         List<SlideModel> slideModels = new ArrayList<>();
-        slideModels.add(new SlideModel(R.drawable.soe, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.soe, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.soe, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.soe, ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/SOE%2FIMG_6003.JPG?alt=media&token=28887592-76f4-40c9-b2c5-af376fcbbeae", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/SOE%2F_MG_7903-1.jpg?alt=media&token=a240d0d3-9dc0-4778-91a3-e06d300c3e77", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/SOE%2FIMG_6000.JPG?alt=media&token=0a935b75-6081-4342-9b11-7d1a9a7f1c66", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/SOE%2FRKU_ITN_SOE_2021-0024.JPG?alt=media&token=84c54506-d90f-4f72-8cec-3d3eaea89f5d", ScaleTypes.FIT));
 
         imageSlider.setImageList(slideModels, ScaleTypes.FIT);
 

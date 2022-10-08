@@ -24,10 +24,10 @@ public class SOP extends AppCompatActivity {
 
         ImageSlider imageSlider = findViewById(R.id.slider);
         List<SlideModel> slideModels = new ArrayList<>();
-        slideModels.add(new SlideModel(R.drawable.sop, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.sop, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.sop, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.sop, ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sop%2FIMG_5784.JPG?alt=media&token=8d05e590-5576-4840-b95f-58d7a6860ec1", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sop%2FIMG_5826.JPG?alt=media&token=f3c1c09c-8c85-4eba-a7c9-20ccf15eec3c", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sop%2FIMG_6951.jpeg?alt=media&token=0c257df1-b9e5-4e81-bfe7-7a7a92ebb575", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sop%2FIMG_9601.jpg?alt=media&token=eae7a005-3b3d-4676-811d-b0b2f3cc8151", ScaleTypes.FIT));
 
         imageSlider.setImageList(slideModels, ScaleTypes.FIT);
 

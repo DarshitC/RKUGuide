@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "227657895551",
+    "project_id": "rku-guide-47a13",
+    "storage_bucket": "rku-guide-47a13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227657895551:android:7bac60d5b3f1bbe19ef94a",
+        "android_client_info": {
+          "package_name": "com.example.rkuguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227657895551-hf7k9c3g2tifo4h7n5rqcus3eb7chi7n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rkuguide",
+            "certificate_hash": "651f71e41e4a544040ebf1daf9d4a854017d7b67"
+          }
+        },
+        {
+          "client_id": "227657895551-pqd41ojnhads1oau6cbsgf24lun9ih1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzgMEOEulSeSZKnNnJl1hsTFN3K-swla0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227657895551-pqd41ojnhads1oau6cbsgf24lun9ih1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

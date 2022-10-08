@@ -29,6 +29,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/uName"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginStart="20dp"
@@ -69,6 +70,7 @@
 <!--                app:ccp_flagBorderColor="@color/black" />-->
 
             <EditText
+                android:id="@+id/phNum"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
@@ -93,6 +95,7 @@
             android:background="@drawable/round_back_dark_blue5_15">
 
             <EditText
+                android:id="@+id/mail"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
@@ -116,15 +119,16 @@
             android:background="@drawable/round_back_dark_blue5_15">
 
             <EditText
+                android:id="@+id/pwd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
+                android:gravity="center_vertical"
                 android:hint="Password"
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
-                android:gravity="center_vertical"
                 android:textColorHint="@color/black"
                 android:textSize="16sp" />
         </RelativeLayout>
@@ -138,14 +142,15 @@
             android:background="@drawable/round_back_dark_blue5_15">
 
             <EditText
+                android:id="@+id/cpwd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
+                android:gravity="center_vertical"
                 android:hint="Confirm Password"
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:paddingStart="20dp"
-                android:gravity="center_vertical"
                 android:paddingEnd="20dp"
                 android:textColorHint="@color/black"
                 android:textSize="16sp" />

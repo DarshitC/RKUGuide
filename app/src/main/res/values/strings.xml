@@ -25,6 +25,19 @@
     </string>
     <string name="ayurvedicCourse">1. Bachelor Of Ayurvedic Medicine And Surgery</string>
 
+    <!-- TODO: Details Of Agriculture-->
+    <string name="aboutAgriculture">➠ It is a 4 year long Undergraduate Bachelor Degree programme.
+        B. Sc. (Hons.) Agriculture programme consists of subjects such as Agronomy, Agricultural
+        Meteorology, Soil Science, Genetics and Plant Breeding, Seed Science, Plant Pathology,
+        Agriculture Entomology, Horticulture, Extension Education, Agricultural Economics,
+        Agriculture Engineering, Agricultural Statistics, Animal and Poultry Management, Plant
+        Biotechnology etc- The main aim of this programme is to train students to improve the
+        agriculture sector in India, pave the way for future developments through research
+        activities and transfer that research to farmers for increase production and sustainability.
+        \n➠ This program aims at combining concepts of RESEARCH, EDUCATION and EXTENSION to boost
+        the agricultural sector.
+    </string>
+    <string name="agricultureCourse">1. Bachelor Of Agriculture Science</string>
 
     <!-- TODO: Details Of BestPlace-->
     <string name="aboutAnalgadh">➠ This is an off beat location, a beautiful and peaceful attraction and one of
@@ -171,5 +184,27 @@
                 ➠ In case of medical emergency , student should contact to warden.\n\n
                 ➠ All the rights are reserved by the management.
     </string>
+
+    <!-- TODO: Details Of Other Activity-->
+    <string name="aboutLibrary">➠ There are so many libraries like : Engineering Library, Pharmacy Library,
+                Ayurvedic Library, Management Library, Physiotherapy Library, Science Library.\n\n
+                ➠  All books are available in the library.\n\n
+                ➠ Student can issue any book from their library account for limited time duration.\n\n
+                ➠ WI-FI facility also available in all libraries.
+    </string>
+    <string name="aboutSports">➠ State-of-the-art gymnasium, Sports building, fully-equipped with the
+                latest equipment within the campus.\n\n
+                ➠ Instructors and trainers are also available to train the students and staff.
+    </string>
+    <string name="aboutCanteen">➠ The students who come from faraway places, start their journey to
+                the College early in the morning. The mid-day meal is provided.
+                Even many day-scholars use canteen facilities for their breakfast and evening
+                tea with snacks.\n\n
+                ➠ Only one common eating facility (canteen facility) shall be provided in the campus for
+                day scholars, hostellers, guests of the College, teaching and non-teaching staff of the College.
+                The management is fully committed to keeping the quality of the canteen for the utmost
+                benefit of all concerned.
+    </string>
+
 
 </resources>

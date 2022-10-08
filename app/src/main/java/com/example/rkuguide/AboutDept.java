@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 public class AboutDept extends AppCompatActivity {
 
-    LinearLayout soe,som,ayur,physio,sop,sos,other;
+    LinearLayout soe,som,ayur,physio,sop,sos,sas,other;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +64,14 @@ public class AboutDept extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(AboutDept.this,SOS.class);
+                startActivity(intent);
+            }
+        });
+        sas = findViewById(R.id.sas);
+        sas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(AboutDept.this,SAS.class);
                 startActivity(intent);
             }
         });

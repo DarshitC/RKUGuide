@@ -24,10 +24,10 @@ public class SOM extends AppCompatActivity {
 
         ImageSlider imageSlider = findViewById(R.id.slider);
         List<SlideModel> slideModels = new ArrayList<>();
-        slideModels.add(new SlideModel(R.drawable.som, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.som, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.som, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.som, ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/som%2FRKU_SOM_24032021-0089.JPG?alt=media&token=cf52eaef-a82c-44d3-8823-c205783a1656", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/som%2FRKU_SOM_24032021-0114.JPG?alt=media&token=8d944373-8ff0-4740-9d54-53338fc34df4", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/som%2FRKU_SOM_24032021-0181.JPG?alt=media&token=1d5cd1ff-de15-4443-bcf7-a288ab7743ad", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/som%2FRKU_SOM_25032021-0007.JPG?alt=media&token=d4df3246-f5bd-4ab7-b293-ff7bcca8a813", ScaleTypes.FIT));
 
         imageSlider.setImageList(slideModels, ScaleTypes.FIT);
 

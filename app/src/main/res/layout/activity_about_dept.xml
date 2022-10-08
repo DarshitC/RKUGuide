@@ -134,6 +134,27 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/sas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/round_back_dark_blue5_15">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sas"
+                app:shapeAppearanceOverlay="@style/roundImageView" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
             android:id="@+id/other"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

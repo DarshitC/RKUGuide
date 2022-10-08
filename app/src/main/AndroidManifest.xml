@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RKUGuide">
         <activity
+            android:name=".SAS"
+            android:exported="false"
+            android:parentActivityName=".AboutDept"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".City"
             android:exported="false"
             android:parentActivityName=".DashboardActivity"
@@ -17,7 +22,7 @@
         <activity
             android:name=".OtherActivity"
             android:exported="false"
-            android:parentActivityName=".AboutDeveloper"
+            android:parentActivityName=".AboutDept"
             android:screenOrientation="portrait" />
         <activity
             android:name=".AboutDeveloper"
@@ -40,32 +45,32 @@
         <activity
             android:name=".SOS"
             android:exported="false"
-            android:parentActivityName=".AboutDeveloper"
+            android:parentActivityName=".AboutDept"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Physio"
             android:exported="false"
-            android:parentActivityName=".AboutDeveloper"
+            android:parentActivityName=".AboutDept"
             android:screenOrientation="portrait" />
         <activity
             android:name=".SOP"
             android:exported="false"
-            android:parentActivityName=".AboutDeveloper"
+            android:parentActivityName=".AboutDept"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Ayurvedic"
             android:exported="false"
-            android:parentActivityName=".AboutDeveloper"
+            android:parentActivityName=".AboutDept"
             android:screenOrientation="portrait" />
         <activity
             android:name=".SOM"
             android:exported="false"
-            android:parentActivityName=".AboutDeveloper"
+            android:parentActivityName=".AboutDept"
             android:screenOrientation="portrait" />
         <activity
             android:name=".SOE"
             android:exported="false"
-            android:parentActivityName=".AboutDeveloper"
+            android:parentActivityName=".AboutDept"
             android:screenOrientation="portrait" />
         <activity
             android:name=".AboutDept"
@@ -75,24 +80,21 @@
         <activity
             android:name=".DashboardActivity"
             android:exported="false"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SplashScreen"
-            android:exported="false"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <activity
-            android:name=".SignUp"
             android:exported="true"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SignUp"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SignIn"
             android:exported="false"

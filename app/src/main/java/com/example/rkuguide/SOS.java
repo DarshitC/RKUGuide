@@ -24,10 +24,10 @@ public class SOS extends AppCompatActivity {
 
         ImageSlider imageSlider = findViewById(R.id.slider);
         List<SlideModel> slideModels = new ArrayList<>();
-        slideModels.add(new SlideModel(R.drawable.sos, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.sos, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.sos, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.sos, ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sos%2FIMG_0891.JPG?alt=media&token=d7e19550-9ef3-4dbc-8503-e756bb7546fc", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sos%2FIMG_5717.JPG?alt=media&token=918554bc-7906-4fa9-a14b-f1905933de2f", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sos%2FIMG_5853.JPG?alt=media&token=d2e57a1e-ce36-4a8d-8dcc-cf30984dd33e", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sos%2FIMG_5856.JPG?alt=media&token=ed285f8b-f1da-4f55-9f7d-e87f1fb86c92", ScaleTypes.FIT));
 
         imageSlider.setImageList(slideModels, ScaleTypes.FIT);
 

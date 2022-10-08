@@ -125,9 +125,9 @@ public class DashboardActivity extends AppCompatActivity {
                 Intent intent = new Intent(DashboardActivity.this, AboutDeveloper.class);
                 startActivity(intent);
                 return true;
-            case R.id.logout:
-                logout();
-                return true;
+//            case R.id.logout:
+//                logout();
+//                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

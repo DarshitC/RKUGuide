@@ -36,7 +36,7 @@
                 android:layout_gravity="center"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/analgadh"
+                android:src="@drawable/dalpakwan"
                 app:shapeAppearanceOverlay="@style/roundImageView" />
 
             <TextView
@@ -73,7 +73,7 @@
                 android:layout_gravity="center"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ishwariya"
+                android:src="@drawable/ghughara"
                 app:shapeAppearanceOverlay="@style/roundImageView" />
 
 
@@ -111,7 +111,7 @@
                 android:layout_gravity="center"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/praduman"
+                android:src="@drawable/bhungadabataka"
                 app:shapeAppearanceOverlay="@style/roundImageView" />
 
 
@@ -149,7 +149,7 @@
                 android:layout_gravity="center"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/lalpari"
+                android:src="@drawable/dabeli"
                 app:shapeAppearanceOverlay="@style/roundImageView" />
 
             <TextView
@@ -186,7 +186,7 @@
                 android:layout_gravity="center"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/nyari"
+                android:src="@drawable/gathiya"
                 app:shapeAppearanceOverlay="@style/roundImageView" />
 
             <TextView
