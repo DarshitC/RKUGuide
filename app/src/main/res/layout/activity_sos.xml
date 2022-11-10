@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".SOS">
 
     <LinearLayout
@@ -17,6 +18,7 @@
             android:id="@+id/slider"
             android:layout_width="match_parent"
             android:layout_height="250dp"
+            android:background="@drawable/loading"
             app:iss_auto_cycle="true"
             app:iss_corner_radius="20"
             app:iss_delay="0"
@@ -35,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="ABOUT SCHOOL OF SCIENCE"
+                android:text="@string/about_school_of_science"
                 android:textColor="@color/btn"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -44,10 +46,20 @@
                 android:id="@+id/abutsos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/readmore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
@@ -66,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="COURSES"
+                android:text="@string/courses"
                 android:textColor="@color/btn"
                 android:textSize="24sp"
                 android:textStyle="bold" />

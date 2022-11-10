@@ -2,7 +2,10 @@ package com.example.rkuguide;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.denzcoskun.imageslider.ImageSlider;
@@ -22,17 +25,28 @@ public class SAS extends AppCompatActivity {
         getSupportActionBar().setTitle("School Of Agriculture Science");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        //Image Slider List For Retrieving Image From Database
         ImageSlider imageSlider = findViewById(R.id.slider);
         List<SlideModel> slideModels = new ArrayList<>();
-        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/SOA%2FIMG_6265.JPG?alt=media&token=69f921c2-da55-4790-bf17-f1344db5c6d0", ScaleTypes.FIT));
-        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/SOA%2FIMG_6283.JPG?alt=media&token=55dc94df-22c1-4a4e-85de-9db5fe548e25", ScaleTypes.FIT));
-        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/SOA%2FIMG_6293.JPG?alt=media&token=78bf4ddc-6778-427a-8300-791483deedef", ScaleTypes.FIT));
-        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/SOA%2FRKU-0783.jpg?alt=media&token=6e5aabe7-e962-488d-86de-4048588ec8ff", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FSAS%2Fsas1.jpeg?alt=media&token=7118db09-7178-4e4b-9d03-f192e726c856", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FSAS%2Fsas2.jpeg?alt=media&token=04a423b8-dc70-4b6a-8ca3-1451592762c6", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FSAS%2Fsas3.jpeg?alt=media&token=4ab24616-b3e7-4ceb-930c-49b679c4ca00", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FSAS%2Fsas4.jpeg?alt=media&token=4778af91-cd6e-4a73-a9af-a1badf56f73f", ScaleTypes.FIT));
 
         imageSlider.setImageList(slideModels, ScaleTypes.FIT);
 
         TextView textView = findViewById(R.id.abutsas);
         textView.setText(R.string.aboutAgriculture);
+
+        TextView textRead = findViewById(R.id.readmore);
+        textRead.setText(R.string.more);
+        textRead.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "https://sas.rku.ac.in/";
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+            }
+        });
 
         TextView course = findViewById(R.id.abutcourse);
         course.setText(R.string.agricultureCourse);

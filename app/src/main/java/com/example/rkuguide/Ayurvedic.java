@@ -2,7 +2,10 @@ package com.example.rkuguide;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.denzcoskun.imageslider.ImageSlider;
@@ -22,17 +25,28 @@ public class Ayurvedic extends AppCompatActivity {
         getSupportActionBar().setTitle("Ayurvedic College & Hospital");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        //Image Slider List For Retrieving Image From Database
         ImageSlider imageSlider = findViewById(R.id.slider);
         List<SlideModel> slideModels = new ArrayList<>();
-        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sach%2FIMG_1745.JPG?alt=media&token=bed016d6-6eff-4e85-b18b-37c17ef82caf", ScaleTypes.FIT));
-        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sach%2FIMG_1756.JPG?alt=media&token=db59c379-6196-45ed-a916-32e70257e455", ScaleTypes.FIT));
-        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sach%2FIMG_1763.JPG?alt=media&token=09c0ac79-8c6e-4d1c-a7f6-dc59fff7ab9d", ScaleTypes.FIT));
-        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sach%2FIMG_1765.JPG?alt=media&token=008c62d8-54f9-4308-846a-c4bb8e4bd987", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FAyurvedic%2Fayur1.jpeg?alt=media&token=7cfc7fef-6435-46f9-b6b2-77c13c48d2ae", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FAyurvedic%2Fayur2.jpeg?alt=media&token=a3b57138-1038-4faa-b368-2af66078820f", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FAyurvedic%2Fayur3.jpeg?alt=media&token=36f9e320-8eec-4ad9-a7d7-4ae3435ac26a", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FAyurvedic%2Fayur4.jpeg?alt=media&token=a2c5f6b6-6471-4293-9c68-2150f9362865", ScaleTypes.FIT));
 
         imageSlider.setImageList(slideModels, ScaleTypes.FIT);
 
         TextView textView = findViewById(R.id.abutayur);
         textView.setText(R.string.aboutAyurvedic);
+
+        TextView textRead = findViewById(R.id.readmore);
+        textRead.setText(R.string.more);
+        textRead.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "https://ach.rku.ac.in/";
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+            }
+        });
 
         TextView course = findViewById(R.id.abutcourse);
         course.setText(R.string.ayurvedicCourse);

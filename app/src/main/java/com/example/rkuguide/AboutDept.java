@@ -19,6 +19,7 @@ public class AboutDept extends AppCompatActivity {
         getSupportActionBar().setTitle("Schools");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        //This all OnClick events are for Intent Activity
         soe = findViewById(R.id.soe);
         soe.setOnClickListener(new View.OnClickListener() {
             @Override

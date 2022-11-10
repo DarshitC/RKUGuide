@@ -31,11 +31,12 @@ public class BoysHostel extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        //Image Slider List For Retrieving Image From Database
         ImageSlider imageSlider = view.findViewById(R.id.slider);
         List<SlideModel> slideModels = new ArrayList<>();
-        slideModels.add(new SlideModel(R.drawable.boysh1, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.boysh2, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.boysh3, ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FB%26GHostel%2Fbbuilding.jpeg?alt=media&token=c958f020-9119-43e4-9833-0644e906f257", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FB%26GHostel%2Fboysh2.jpg?alt=media&token=2cf1aa1c-0b1a-44c1-b743-0b857be40322", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FB%26GHostel%2Fboysh3.jpg?alt=media&token=df69110b-362d-4bd3-9c53-d21f389ccb51", ScaleTypes.FIT));
 
         imageSlider.setImageList(slideModels, ScaleTypes.FIT);
 

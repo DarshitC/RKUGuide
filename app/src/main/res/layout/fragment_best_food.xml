@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
     tools:context=".BestFood">
 
     <LinearLayout
@@ -25,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="Dalpakwan"
+                android:text="@string/dalpakwan"
                 android:textColor="@color/btn"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -43,7 +44,7 @@
                 android:id="@+id/aboutDalpakwan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -62,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="Ghughara"
+                android:text="@string/ghughara"
                 android:textColor="@color/btn"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -81,7 +82,7 @@
                 android:id="@+id/aboutGhughara"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -100,7 +101,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="Bhungada Bataka"
+                android:text="@string/bhungada_bataka"
                 android:textColor="@color/btn"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -111,7 +112,7 @@
                 android:layout_gravity="center"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
-                android:src="@drawable/bhungadabataka"
+                android:src="@drawable/bhungarabateta"
                 app:shapeAppearanceOverlay="@style/roundImageView" />
 
 
@@ -119,7 +120,7 @@
                 android:id="@+id/aboutBhungada"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -138,7 +139,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="Dabeli"
+                android:text="@string/dabeli"
                 android:textColor="@color/btn"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -156,7 +157,7 @@
                 android:id="@+id/aboutDabeli"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -175,7 +176,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="Gathiya"
+                android:text="@string/gathiya"
                 android:textColor="@color/btn"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -193,7 +194,7 @@
                 android:id="@+id/aboutGathiya"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textSize="18sp" />

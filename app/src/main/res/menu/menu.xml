@@ -4,8 +4,36 @@
     <item
         android:id="@+id/abutdeveloper"
         android:title="About Developer" />
-<!--    <item-->
-<!--        android:id="@+id/logout"-->
-<!--        android:title="Logout" />-->
+
+    <item
+        android:id="@+id/disclaimer"
+        android:title="Disclaimer" />
+
+    <item
+        android:id="@+id/sm"
+        android:title="Social Media">
+
+        <menu>
+            <item
+                android:id="@+id/yt"
+                android:title="YouTube" />
+
+            <item
+                android:id="@+id/insta"
+                android:title="Instagram" />
+
+            <item
+                android:id="@+id/fb"
+                android:title="Facebook" />
+
+            <item
+                android:id="@+id/li"
+                android:title="LinkedIn" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
 
 </menu>

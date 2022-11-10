@@ -3,20 +3,15 @@ package com.example.rkuguide;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.MotionEvent;
-import android.view.View;
-import android.widget.ZoomControls;
 
-import com.github.chrisbanes.photoview.PhotoView;
-
-public class Map extends AppCompatActivity {
+public class HowToReachActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_map);
+        setContentView(R.layout.activity_how_to_reach);
 
-        getSupportActionBar().setTitle("RKU Map");
+        getSupportActionBar().setTitle("How To Reach RKU");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

@@ -4,29 +4,17 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- TODO: Details Of Ayurvedic-->
-    <string name="aboutAyurvedic">➠ Life is getting faster and faster day by day so as the rate of
+    <string name="aboutAyurvedic">Life is getting faster and faster day by day so as the rate of
         increment in unpredictable diseases around human beings. The number of remediless
         diseases is increasing with a higher rate. But there is a path through which these
         incurable diseases can be cured. In between the busy lifestyles, there exists a way
         through which the life, health, mind, body and heart remain free from unwanted damage,
         incurable diseases.
-        \n\n➠ RK University knows the value of this Traditional Indian System of Medicine
-        (Ayurveda) which is precious thing for mankind. Modern techniques of learning,
-        practical knowledge for every single topic, laboratories with high quality equipments
-        and well qualified faculties, give the students a perfect platform to build their
-        career as BAMS (Bachelor of Ayurvedic Medicine And Surgery) and help them becoming a
-        successful professional in Ayurveda sector. Several numbers of medical camps,
-        seminars, health awareness programs, interaction with globally known personalities
-        of Ayurveda and continuous practical knowledge provided by Ayurvedic College
-        and Hospital, give the right platform to the students to learn and develop
-        themselves in Ayurveda field. Ayurvedic College and Hospital also has one of the
-        most modern libraries in Gujarat region which provides the best resources of
-        Ayurveda to the students.
     </string>
     <string name="ayurvedicCourse">1. Bachelor Of Ayurvedic Medicine And Surgery</string>
 
     <!-- TODO: Details Of Agriculture-->
-    <string name="aboutAgriculture">➠ It is a 4 year long Undergraduate Bachelor Degree programme.
+    <string name="aboutAgriculture">It is a 4 year long Undergraduate Bachelor Degree programme.
         B. Sc. (Hons.) Agriculture programme consists of subjects such as Agronomy, Agricultural
         Meteorology, Soil Science, Genetics and Plant Breeding, Seed Science, Plant Pathology,
         Agriculture Entomology, Horticulture, Extension Education, Agricultural Economics,
@@ -34,10 +22,101 @@
         Biotechnology etc- The main aim of this programme is to train students to improve the
         agriculture sector in India, pave the way for future developments through research
         activities and transfer that research to farmers for increase production and sustainability.
-        \n➠ This program aims at combining concepts of RESEARCH, EDUCATION and EXTENSION to boost
+        \nThis program aims at combining concepts of RESEARCH, EDUCATION and EXTENSION to boost
         the agricultural sector.
     </string>
     <string name="agricultureCourse">1. Bachelor Of Agriculture Science</string>
+
+    <!-- TODO: Details Of Physio-->
+    <string name="aboutPhysio">The institute established in 2005, with broad mission and vision to
+                develop excellence in health care profession. The institute was well known as a
+                RK College of Physiotherapy, RK Group of Colleges, Rajkot affiliated to Saurashtra
+                University, Rajkot and now famous as School of Physiotherapy, affiliated to
+                RK University, Rajkot.The school is also recognized by the Indian Association of
+                Physiotherapists (IAP), the IAP is a member organization of the World Confederation
+                of Physical Therapy (WCPT). Well qualified faculties, advance technology in laboratories
+                and large exposure to clinical setups remains first priority for the school.
+    </string>
+    <string name="physioCourse">1. BPT\n    (Bachelor of Physiotherapy)\n\n
+                2. MPT\n    (Master of Physiotherapy)
+    </string>
+
+    <!-- TODO: Details Of SOE-->
+    <string name="aboutSOE">School of Engineering is one of the best degree engineering colleges
+                in Gujarat state. School of Engineering is AICTE approved and located in a
+                40 acre of lush-green campus on Rajkot-Bhavnagar highway at Rajkot, Gujarat. Earlier
+                known as RK College of Engineering and Technology, the school envisage a world-class
+                education system that assures quality and empowers the students to be the global 
+                leaders of tomorrow. The school strives to bring excellence in the teaching-learning 
+                process through continuous evaluation and training in educational pedagogy.
+    </string>
+    <string name="more">READ MORE</string>
+    <string name="soeCourse">1. Mechanical Engineering\n    Diploma\n\n
+                2. Civil Engineering\n    Diploma\n\n
+                3. Computer Engineering\n    Diploma\n\n
+                4. Electrical Engineering\n    Diploma\n\n
+                5. Computer Engineering\n    Bachelor of Technology (B.Tech)\n\n
+                6. Civil Engineering\n    Bachelor of Technology (B.Tech)\n\n
+                7. Electrical Engineering\n    Bachelor of Technology (B.Tech)\n\n
+                8. Information Technology\n    Bachelor of Technology (B.Tech)\n\n
+                9. Mechanical Engineering\n      Bachelor of Technology (B.Tech)\n\n
+                10. Computer Engineering\n      Master of Technology (M.Tech)\n\n
+                11. Construction Technology\n      Master of Technology (M.Tech)\n\n
+                12. Humanities And Applied Science\n\n
+                13. Electrical Power System\n      Master of Technology (M.Tech)\n\n
+                14. Machine Design\n      Master of Technology (M.Tech)\n\n
+                15. Structural Engineering\n      Master of Technology (M.Tech)\n\n
+                16. Thermal Sciences\n      Master of Technology (M.Tech)\n\n
+                17. BCA\n      Bachelor of Computer Applications\n\n
+                18. MCA\n      Master of Computer Applications
+    </string>
+
+    <!-- TODO: Details Of SOM-->
+    <string name="aboutSOM">School of Management started its journey offering MBA
+                program in the year 2005 as RK College of Business Management.
+                Since becoming a university in the year 2011, now the institution is known as
+                School of Management, a constituent school of RK University, Rajkot.
+    </string>
+    <string name="somCourse">1. BBA\n    (Bachelor of Business Administration)\n\n
+                2. B.Voc\n    (Bachelor of Vocational Studies)\n\n
+                3. MBA\n    (Master of Business Administration)
+    </string>
+
+    <!-- TODO: Details Of SOP-->
+    <string name="aboutSOP">School of Pharmacy is engaged in imparting education of Bachelors,
+                Masters and Doctorate degrees in Pharmacy. The school is a part of campus of
+                RK University and houses 20 laboratories, 4 class rooms, auditorium, library with
+                Wi-Fi network, learning resource centre, medicinal garden, museum, seminar hall,
+                central instrumentation room, animal house and administrative area.
+                The building is an architectural splendor with ultramodern amenities, specifically
+                designed to suit the requirements of Pharmacy education.
+    </string>
+    <string name="sopCourse">1. Pharm D.\n     (Doctor Of Pharmacy)\n\n
+                2. B.Pharm\n     (Bachelor Of Pharmacy)\n\n
+                3. M.Pharm\n     (Master Of Pharmacy)
+    </string>
+
+    <!-- TODO: Details Of SOS-->
+    <string name="aboutSOS">RK University, formerly the RK Group of Colleges, is a leading
+                University offering variety of courses ranging from Diploma studies to
+                Doctorate research.\n\n
+                Since its inception in the year of 2005, the RK group of Colleges has made a
+                constant endeavour to provide quality education and a platform for overall development
+                to its students. The journey from Group of Colleges to A State-Private University Status has
+                been a daunting task with challenges and opportunities. It’s a collective and constant
+                effort of RK family that we have scaled this height.
+    </string>
+    <string name="sosCourse">1. Diploma In Medical Laboratory Technology\n\n
+                2. B.Sc Chemistry\n    (Bachelor Of Science)\n\n
+                3. B.Sc Microbiology\n    (Bachelor Of Science)\n\n
+                4. B.Sc Physics\n    (Bachelor Of Science)\n\n
+                5. B.Sc Mathematics\n    (Bachelor Of Science)\n\n
+                6. M.Sc Organic Chemistry\n    (Master Of Science)\n\n
+                7. M.Sc Analytical Chemistry\n    (Master Of Science)\n\n
+                8. M.Sc Microbiology\n    (Master Of Science)\n\n
+                9. M.Sc Physics\n    (Master Of Science)
+    </string>
+
 
     <!-- TODO: Details Of BestPlace-->
     <string name="aboutAnalgadh">➠ This is an off beat location, a beautiful and peaceful attraction and one of
@@ -123,12 +202,13 @@
     </string>
 
     <!-- TODO: Details Of Hostel-->
-    <string name="aboutBoysHostel">The hostels are well maintained. The hostel building is having
-                construction and maintenance in order to accommodate more people and provide new
-                facilities. We have 3 seater rooms with attached washrooms, washing machines on
-                each floor, badminton court, table tennis.
+    <string name="aboutBoysHostel">There are three hostel buildings for boys.
+        \n\nThe hostels are well maintained. The hostel building is having construction and
+        maintenance in order to accommodate more people and provide new facilities. We have 3 seater
+        rooms with attached washrooms, washing machines on each floor, badminton court, table tennis.
     </string>
-    <string name="aboutGirlsHostel">Hostels are good. We have 4 room mate in single room.
+    <string name="aboutGirlsHostel">There are five hostel buildings for girls.
+        \n\nHostels are good. We have 4 room mate in single room.
         One table is provided in room. One bed is also provided. Two shelfs are provided for putting
         some books. One almira is also provided.
     </string>
@@ -206,5 +286,115 @@
                 benefit of all concerned.
     </string>
 
+    <!-- TODO: Disclaimer-->
+    <string name="disclaimer">➠ Personal Details Collected will not be shared with third party and we
+        will try to keep your data confidential.
+        \n\n➠ Fees for tourist spots mentioned in app are subject to change, Kindly check the
+        updated fees with tourist center directly.
+        \n\n➠ Admission relative information, select Talk To Us ( Strict action will be taken on prank callers ).
+        \n\n➠ If any feedback suggestion related to app contact RKU, ITs.
+    </string>
+
+    <string name="prem_vadhavana">Prem Vadhavana</string>
+    <string name="degree_c_e">Degree : C.E.</string>
+    <string name="_21soece13078">21SOECE13078</string>
+    <string name="pvadhavana117_rku_ac_in">pvadhavana117@rku.ac.in</string>
+    <string name="tulsi_chhatriwala">Tulsi Chhatriwala</string>
+    <string name="degree_i_t">Degree : I.T.</string>
+    <string name="_21soeit13003">21SOEIT13003</string>
+    <string name="tchhatriwala507_rku_ac_in">tchhatriwala507@rku.ac.in</string>
+    <string name="naman_thakar">Naman Thakar</string>
+    <string name="_21soeit13020">21SOEIT13020</string>
+    <string name="nthakar715_rku_ac_in">nthakar715@rku.ac.in</string>
+    <string name="darshit_chauhan">Darshit Chauhan</string>
+    <string name="_21soeit13002">21SOEIT13002</string>
+    <string name="dchauhan069_rku_ac_in">dchauhan069@rku.ac.in</string>
+    <string name="ayurvedic_college_and_hospital">AYURVEDIC COLLEGE AND HOSPITAL</string>
+    <string name="courses">COURSES</string>
+    <string name="place_to_visit">Place To Visit</string>
+    <string name="famous_food">Famous Food</string>
+    <string name="academics">Academics</string>
+    <string name="hostel">Hostel</string>
+    <string name="city">City</string>
+    <string name="phrase">Phrase</string>
+    <string name="reach">How To Reach RKU</string>
+    <string name="talk">Talk To Us</string>
+    <string name="boys_hostel">Boys Hostel</string>
+    <string name="girls_hostel">Girls Hostel</string>
+    <string name="about_library">ABOUT LIBRARY</string>
+    <string name="about_sports_and_gym">ABOUT SPORTS AND GYM</string>
+    <string name="about_canteen">ABOUT CANTEEN</string>
+    <string name="enter_the_otp">Enter the OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="about_school_of_physiotherapy">ABOUT SCHOOL OF PHYSIOTHERAPY</string>
+    <string name="about_school_of_agriculture_science">ABOUT SCHOOL OF AGRICULTURE SCIENCE</string>
+    <string name="sign_in">Sign In</string>
+    <string name="please_login_in_your_account">Please Login in your account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="or">OR</string>
+    <string name="sign_in_with_google">Sign In With Google</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="about_school_of_engineering">ABOUT SCHOOL OF ENGINEERING</string>
+    <string name="about_school_of_management">ABOUT SCHOOL OF MANAGEMENT</string>
+    <string name="about_school_of_pharmacy">ABOUT SCHOOL OF PHARMACY</string>
+    <string name="about_school_of_science">ABOUT SCHOOL OF SCIENCE</string>
+    <string name="rku_guide">RKU Guide</string>
+    <string name="dalpakwan">Dalpakwan</string>
+    <string name="ghughara">Ghughara</string>
+    <string name="bhungada_bataka">Bhungada Bataka</string>
+    <string name="dabeli">Dabeli</string>
+    <string name="gathiya">Gathiya</string>
+    <string name="analgadh_hill">Analgadh Hill</string>
+    <string name="ishwariya_park">Ishwariya Park</string>
+    <string name="pradhyuman_zoological_park">Pradhyuman Zoological Park</string>
+    <string name="lal_pari_lake">Lal Pari Lake</string>
+    <string name="nyari_dam">Nyari Dam</string>
+    <string name="about_boys_hostel">ABOUT BOYS HOSTEL</string>
+    <string name="rules_and_regulation">RULES AND REGULATION</string>
+    <string name="about_girls_hostel">ABOUT GIRLS HOSTEL</string>
+
+    <string name="how_are_you">How Are You?</string>
+    <string name="how_are_you1">તમે કેમ છો?</string>
+    <string name="what_are_you_doing_here">What Are You Doing Here?</string>
+    <string name="what_are_you_doing_here1">તમે અહીં શું કરી રહ્યા છો?</string>
+    <string name="can_you_help_me">Can You Help Me?</string>
+    <string name="can_you_help_me1">તમે મને મદદ કરી શકો છો?</string>
+    <string name="where_do_you_come_from">Where Do You Come From?</string>
+    <string name="where_do_you_come_from1">તમે ક્યાંથી આવો છો?</string>
+    <string name="did_you_eat">Did You Done Your Food?</string>
+    <string name="did_you_eat1">શું તમે જમી લીધું?</string>
+    <string name="what_do_you_like_more">What Do You Like More?</string>
+    <string name="what_do_you_like_more1">તમને વધુ શું ગમે છે?</string>
+    <string name="help_me_to_go_to_mess">Help Me To Go To Mess.</string>
+    <string name="help_me_to_go_to_mess1">મેસમાં જવા માટે મને મદદ કરો.</string>
+    <string name="help_me_to_go_to_canteen">Help Me To Go To Canteen.</string>
+    <string name="help_me_to_go_to_canteen1">કેન્ટીનમાં જવા માટે મને મદદ કરો.</string>
+    <string name="which_subject_do_you_like_more">Which Subject Do You Like More?</string>
+    <string name="which_subject_do_you_like_more1">તમને કયો વિષય વધુ ગમે છે?</string>
+    <string name="which_department_are_you_in">Which Department Are You In?</string>
+    <string name="which_department_are_you_in1">તમે કયા વિભાગમાં છો?</string>
+    <string name="what_to_do_to_get_to_the_airport">What To Do To Get To The Airport?</string>
+    <string name="what_to_do_to_get_to_the_airport1">એરપોર્ટ પર જવા માટે શું કરવું?</string>
+    <string name="give_me_your_number">Give Me Your Number.</string>
+    <string name="give_me_your_number1">તમારો નંબર આપો.</string>
+    <string name="please_contact_me_when_you_come_to_my_country">Please Contact Me \nWhen You Come To My Country</string>
+    <string name="please_contact_me_when_you_come_to_my_country1">જ્યારે તમે મારા દેશમાં આવો ત્યારે \nકૃપા કરીને મારો સંપર્ક કરજો.</string>
+    <string name="what_is_the_famous_place_here">What Is The Famous Place Here?</string>
+    <string name="what_is_the_famous_place_here1">અહીંનું પ્રખ્યાત સ્થળ કયું છે?</string>
+    <string name="what_is_your_name">What Is Your Name?</string>
+    <string name="what_is_your_name1">તમારું નામ શું છે?</string>
+    <string name="forgot_password_txt">Forgot Password</string>
+    <string name="back_to">Back To</string>
+    <string name="via_bus">Via Bus</string>
+    <string name="via_train">Via Train</string>
+    <string name="via_airplane">Via Airplane</string>
 
 </resources>

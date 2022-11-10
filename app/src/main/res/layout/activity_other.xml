@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".OtherActivity">
 
     <LinearLayout
@@ -17,6 +18,7 @@
             android:id="@+id/slider"
             android:layout_width="match_parent"
             android:layout_height="250dp"
+            android:background="@drawable/loading"
             app:iss_auto_cycle="true"
             app:iss_corner_radius="20"
             app:iss_delay="0"
@@ -35,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="ABOUT LIBRARY"
+                android:text="@string/about_library"
                 android:textColor="@color/btn"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -44,7 +46,7 @@
                 android:id="@+id/abutlib"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
@@ -66,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="ABOUT SPORTS AND GYM"
+                android:text="@string/about_sports_and_gym"
                 android:textColor="@color/btn"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -96,7 +98,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="ABOUT CANTEEN"
+                android:text="@string/about_canteen"
                 android:textColor="@color/btn"
                 android:textSize="24sp"
                 android:textStyle="bold" />

@@ -22,13 +22,20 @@ import android.widget.Toast;
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
 import com.denzcoskun.imageslider.models.SlideModel;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class DashboardActivity extends AppCompatActivity {
 
-    LinearLayout uni, map, hostel, chat, city;
+    FirebaseAuth mFirebaseAuth;
+    LinearLayout uni, reach, hostel, chat, city, phrase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,11 +44,14 @@ public class DashboardActivity extends AppCompatActivity {
 
         getSupportActionBar().setTitle("RKU");
 
+        mFirebaseAuth = FirebaseAuth.getInstance();
+
         uni = findViewById(R.id.uni);
-        map = findViewById(R.id.map);
+        reach = findViewById(R.id.reach);
         hostel = findViewById(R.id.hostel);
         chat = findViewById(R.id.chat);
         city = findViewById(R.id.city);
+        phrase = findViewById(R.id.phrase);
 
         uni.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,11 +77,22 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
-        map.setOnClickListener(new View.OnClickListener() {
+        phrase.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo: 22.24012, 70.90085"));
+                Intent intent = new Intent(DashboardActivity.this, PhraseActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        reach.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Intent intent = new Intent(DashboardActivity.this, HowToReachActivity.class);
+                //Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo: 22.24012, 70.90085"));
+                //startActivity(intent);
+                String url = "https://www.makemytrip.com/";
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
             }
         });
 
@@ -79,6 +100,7 @@ public class DashboardActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                //Contact Selection Dialog
                 AlertDialog.Builder alertDialog = new AlertDialog.Builder(DashboardActivity.this);
                 alertDialog.setTitle("Please Select ");
                 alertDialog.setMessage("Who do you want to communicate with?");
@@ -118,6 +140,7 @@ public class DashboardActivity extends AppCompatActivity {
         return true;
     }
 
+    //Menu Item Selection Condition
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
@@ -125,15 +148,66 @@ public class DashboardActivity extends AppCompatActivity {
                 Intent intent = new Intent(DashboardActivity.this, AboutDeveloper.class);
                 startActivity(intent);
                 return true;
-//            case R.id.logout:
-//                logout();
-//                return true;
+            case R.id.disclaimer:
+                AlertDialog.Builder alertDialog = new AlertDialog.Builder(DashboardActivity.this);
+                alertDialog.setTitle("Disclaimer");
+                alertDialog.setMessage(R.string.disclaimer);
+                alertDialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                    }
+                });
+                alertDialog.show();
+                return true;
+            case R.id.yt:
+                String yturl = "https://www.youtube.com/channel/UCpBbJF7O4NhsvHxb5IZwWUQ";
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(yturl)));
+                return true;
+            case R.id.insta:
+                String instaurl = "https://instagram.com/rkuniversity?igshid=YmMyMTA2M2Y=";
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(instaurl)));
+                return true;
+            case R.id.fb:
+                String fburl = "https://www.facebook.com/rkuindia/";
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(fburl)));
+                return true;
+            case R.id.li:
+                String liurl = "https://in.linkedin.com/school/rkuniversity/";
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(liurl)));
+                return true;
+            case R.id.logout:
+                logout();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
 
     private void logout() {
-        Toast.makeText(this, "Logout", Toast.LENGTH_LONG).show();
+        FirebaseAuth.getInstance().signOut();
+        startActivity(new Intent(DashboardActivity.this, SignIn.class));
+        Toast.makeText(this, "Logout Successfully.", Toast.LENGTH_LONG).show();
+    }
+
+    //Exit Alert Dialog
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alertDialog = new AlertDialog.Builder(DashboardActivity.this);
+        alertDialog.setTitle("Exit App");
+        alertDialog.setMessage("Do You Want To Exit App?");
+        alertDialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finishAffinity();
+            }
+        });
+        alertDialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+            }
+        });
+        alertDialog.show();
     }
 }

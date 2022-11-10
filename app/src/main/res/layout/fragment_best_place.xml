@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".BestPlace">
 
     <LinearLayout
@@ -25,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="Analgadh Hill"
+                android:text="@string/analgadh_hill"
                 android:textColor="@color/btn"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -43,7 +44,7 @@
                 android:id="@+id/aboutAnal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -62,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="Ishwariya Park"
+                android:text="@string/ishwariya_park"
                 android:textColor="@color/btn"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -81,7 +82,7 @@
                 android:id="@+id/aboutIshwariya"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -100,7 +101,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="Pradhyuman Zoological Park"
+                android:text="@string/pradhyuman_zoological_park"
                 android:textColor="@color/btn"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -119,7 +120,7 @@
                 android:id="@+id/aboutPradu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -138,7 +139,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="Lal Pari Lake"
+                android:text="@string/lal_pari_lake"
                 android:textColor="@color/btn"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -156,7 +157,7 @@
                 android:id="@+id/aboutLalPari"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -175,7 +176,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="Nyari Dam"
+                android:text="@string/nyari_dam"
                 android:textColor="@color/btn"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -193,7 +194,7 @@
                 android:id="@+id/aboutNyari"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textSize="18sp" />

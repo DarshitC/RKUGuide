@@ -2,7 +2,10 @@ package com.example.rkuguide;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.denzcoskun.imageslider.ImageSlider;
@@ -22,27 +25,30 @@ public class Physio extends AppCompatActivity {
         getSupportActionBar().setTitle("School Of Physiotherapy");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        //Image Slider List For Retrieving Image From Database
         ImageSlider imageSlider = findViewById(R.id.slider);
         List<SlideModel> slideModels = new ArrayList<>();
-        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sopt%2FRKU_SPT_15072021-0042.jpg?alt=media&token=3e6cad4b-a9b8-40cf-8065-e737f44a295a", ScaleTypes.FIT));
-        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sopt%2FRKU_SPT_15072021-0025.jpg?alt=media&token=3280fcf0-a11d-4259-be55-7eb548247057", ScaleTypes.FIT));
-        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sopt%2FRKU_SPT_15072021-0019.jpg?alt=media&token=53312772-1131-4b6b-b3fd-96129f78f8fe", ScaleTypes.FIT));
-        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide.appspot.com/o/sopt%2FRKU_SPT_15072021-0010.jpg?alt=media&token=7c0fc998-d0a2-4d1e-b50e-0cd2b9a0e58f", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FPhysio%2Fphysio1.jpeg?alt=media&token=38af45ac-c582-43f2-a798-efaba18894c2", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FPhysio%2Fphysio2.jpeg?alt=media&token=4fb0bf37-da00-4b7c-b7b7-b9704acb1854", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FPhysio%2Fphysio3.jpeg?alt=media&token=7bdf9dca-1251-4ce7-ba13-9d725f750f6b", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://firebasestorage.googleapis.com/v0/b/rku-guide-47a13.appspot.com/o/Photos%2FPhysio%2Fphysio4.jpeg?alt=media&token=42cdd499-cbc0-48a3-97d0-d77d9850b099", ScaleTypes.FIT));
 
         imageSlider.setImageList(slideModels, ScaleTypes.FIT);
 
         TextView textView = findViewById(R.id.abutphy);
-        textView.setText("The institute established in 2005, with broad mission and vision to " +
-                "develop excellence in health care profession. The institute was well known as a " +
-                "RK College of Physiotherapy, RK Group of Colleges, Rajkot affiliated to Saurashtra " +
-                "University, Rajkot and now famous as School of Physiotherapy, affiliated to " +
-                "RK University, Rajkot.The school is also recognized by the Indian Association of " +
-                "Physiotherapists (IAP), the IAP is a member organization of the World Confederation " +
-                "of Physical Therapy (WCPT). Well qualified faculties, advance technology in laboratories " +
-                "and large exposure to clinical setups remains first priority for the school.");
+        textView.setText(R.string.aboutPhysio);
+
+        TextView textRead = findViewById(R.id.readmore);
+        textRead.setText(R.string.more);
+        textRead.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "https://spt.rku.ac.in/";
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+            }
+        });
 
         TextView course = findViewById(R.id.abutcourse);
-        course.setText("1. BPT\n    (Bachelor of Physiotherapy)\n\n" +
-                "2. MPT\n    (Master of Physiotherapy)");
+        course.setText(R.string.physioCourse);
     }
 }
