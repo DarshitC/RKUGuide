@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/abutdeveloper"
-        android:title="About Developer" />
-
-    <item
-        android:id="@+id/disclaimer"
-        android:title="Disclaimer" />
+        android:id="@+id/wp"
+        android:icon="@drawable/wp"
+        android:title="WhatsApp"
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/sm"
-        android:title="Social Media">
-
+        android:icon="@drawable/info"
+        android:title="Social Media"
+        app:showAsAction="always">
         <menu>
             <item
                 android:id="@+id/yt"
@@ -31,6 +31,14 @@
                 android:title="LinkedIn" />
         </menu>
     </item>
+
+    <item
+        android:id="@+id/abutdeveloper"
+        android:title="About Developer" />
+
+    <item
+        android:id="@+id/disclaimer"
+        android:title="Disclaimer" />
 
     <item
         android:id="@+id/logout"

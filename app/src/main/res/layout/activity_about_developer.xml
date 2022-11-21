@@ -29,7 +29,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
-                android:src="@drawable/prem"
+                android:src="@drawable/darshit"
                 app:civ_border_color="@color/black"
                 app:civ_border_width="1dp" />
 
@@ -46,7 +46,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="start"
                     android:padding="5dp"
-                    android:text="@string/prem_vadhavana"
+                    android:text="@string/darshit_chauhan"
                     android:textColor="@color/btn"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -56,7 +56,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="start"
                     android:padding="5dp"
-                    android:text="@string/degree_c_e"
+                    android:text="@string/degree_i_t"
                     android:textColor="@color/btn1"
                     android:textSize="16sp" />
 
@@ -65,7 +65,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="start"
                     android:padding="5dp"
-                    android:text="@string/_21soece13078"
+                    android:text="@string/_21soeit13002"
                     android:textColor="@color/btn1"
                     android:textSize="16sp" />
 
@@ -74,7 +74,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="start"
                     android:padding="5dp"
-                    android:text="@string/pvadhavana117_rku_ac_in"
+                    android:text="@string/dchauhan069_rku_ac_in"
                     android:textColor="@color/btn1"
                     android:textSize="16sp" />
 
@@ -235,7 +235,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
-                android:src="@drawable/darshit"
+                android:src="@drawable/prem"
                 app:civ_border_color="@color/black"
                 app:civ_border_width="1dp" />
 
@@ -252,7 +252,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="start"
                     android:padding="5dp"
-                    android:text="@string/darshit_chauhan"
+                    android:text="@string/prem_vadhavana"
                     android:textColor="@color/btn"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -262,7 +262,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="start"
                     android:padding="5dp"
-                    android:text="@string/degree_i_t"
+                    android:text="@string/degree_c_e"
                     android:textColor="@color/btn1"
                     android:textSize="16sp" />
 
@@ -271,7 +271,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="start"
                     android:padding="5dp"
-                    android:text="@string/_21soeit13002"
+                    android:text="@string/_21soece13078"
                     android:textColor="@color/btn1"
                     android:textSize="16sp" />
 
@@ -280,7 +280,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="start"
                     android:padding="5dp"
-                    android:text="@string/dchauhan069_rku_ac_in"
+                    android:text="@string/pvadhavana117_rku_ac_in"
                     android:textColor="@color/btn1"
                     android:textSize="16sp" />
 

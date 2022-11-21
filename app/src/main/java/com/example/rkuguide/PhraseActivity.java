@@ -35,195 +35,195 @@ public class PhraseActivity extends AppCompatActivity {
     }
 
     public void howareen(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.howareyou);
+        mediaPlayer = MediaPlayer.create(this, R.raw.gujhowareyou);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
     public void howareguj(View view){
-        mediaPlayer = MediaPlayer.create(this, R.raw.gujhowareyou);
+        mediaPlayer = MediaPlayer.create(this, R.raw.howareyou);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
     public void whatareyou(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.whatareyoudoinghere);
-        mediaPlayer.setLooping(false);
-        mediaPlayer.start();
-        Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
-    }
-
-    public void whatareyouguj(View view) {
         mediaPlayer = MediaPlayer.create(this, R.raw.gujwhatareyoudoinghere);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void canyouhelp(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.canyouhelpme);
+    public void whatareyouguj(View view) {
+        mediaPlayer = MediaPlayer.create(this, R.raw.whatareyoudoinghere);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void canyouhelpguj(View view) {
+    public void canyouhelp(View view) {
         mediaPlayer = MediaPlayer.create(this, R.raw.gujcanyouhelpme);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void wherefrom(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.wheredoyoucomefrom);
+    public void canyouhelpguj(View view) {
+        mediaPlayer = MediaPlayer.create(this, R.raw.canyouhelpme);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void wherefromguj(View view) {
+    public void wherefrom(View view) {
         mediaPlayer = MediaPlayer.create(this, R.raw.gujwheredoyoucomefrom);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void dideat(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.didyoudoneyourfood);
+    public void wherefromguj(View view) {
+        mediaPlayer = MediaPlayer.create(this, R.raw.wheredoyoucomefrom);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void dideatguj(View view) {
+    public void dideat(View view) {
         mediaPlayer = MediaPlayer.create(this, R.raw.gujdidyoudoneyourfood);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void whatlike(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.whatdoyoulikemore);
+    public void dideatguj(View view) {
+        mediaPlayer = MediaPlayer.create(this, R.raw.didyoudoneyourfood);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void whatlikeguj(View view) {
+    public void whatlike(View view) {
         mediaPlayer = MediaPlayer.create(this, R.raw.gujwhatdoyoulikemore);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void helpmess(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.helpmetogotomess);
+    public void whatlikeguj(View view) {
+        mediaPlayer = MediaPlayer.create(this, R.raw.whatdoyoulikemore);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void helpmessguj(View view) {
+    public void helpmess(View view) {
         mediaPlayer = MediaPlayer.create(this, R.raw.gujhelpmetogotomess);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void helpcanteen(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.helpmetogotocanteen);
+    public void helpmessguj(View view) {
+        mediaPlayer = MediaPlayer.create(this, R.raw.helpmetogotomess);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void helpcanteenguj(View view) {
+    public void helpcanteen(View view) {
         mediaPlayer = MediaPlayer.create(this, R.raw.gujhelpmetogotocanteen);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void whichdept(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.whichdepartmentareyouin);
+    public void helpcanteenguj(View view) {
+        mediaPlayer = MediaPlayer.create(this, R.raw.helpmetogotocanteen);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void whichdeptguj(View view) {
+    public void whichdept(View view) {
         mediaPlayer = MediaPlayer.create(this, R.raw.gujwhichdepartmentareyouin);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void airport(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.whattodotogettotheairport);
+    public void whichdeptguj(View view) {
+        mediaPlayer = MediaPlayer.create(this, R.raw.whichdepartmentareyouin);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void airportguj(View view) {
+    public void airport(View view) {
         mediaPlayer = MediaPlayer.create(this, R.raw.gujwhattodotogettotheairport);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void contactme(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.pleasecontactmewhen);
+    public void airportguj(View view) {
+        mediaPlayer = MediaPlayer.create(this, R.raw.whattodotogettotheairport);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void contactmeguj(View view) {
+    public void contactme(View view) {
         mediaPlayer = MediaPlayer.create(this, R.raw.gujpleasecontactmewhen);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void famousplace(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.whatisthefamousplacehere);
+    public void contactmeguj(View view) {
+        mediaPlayer = MediaPlayer.create(this, R.raw.pleasecontactmewhen);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void famousplaceguj(View view) {
+    public void famousplace(View view) {
         mediaPlayer = MediaPlayer.create(this, R.raw.gujwhatisthefamousplacehere);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void name(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.whatisyourname);
+    public void famousplaceguj(View view) {
+        mediaPlayer = MediaPlayer.create(this, R.raw.whatisthefamousplacehere);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
-    public void nameguj(View view) {
+    public void name(View view) {
         mediaPlayer = MediaPlayer.create(this, R.raw.gujwhatisyourname);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
+    public void nameguj(View view) {
+        mediaPlayer = MediaPlayer.create(this, R.raw.whatisyourname);
+        mediaPlayer.setLooping(false);
+        mediaPlayer.start();
+        Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
+    }
+
     public void sublike(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.whichsubjectdoyoulikemore);
+        mediaPlayer = MediaPlayer.create(this, R.raw.gujwhichsubjectdoyoulikemore);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();
     }
 
     public void sublikeguj(View view) {
-        mediaPlayer = MediaPlayer.create(this, R.raw.gujwhichsubjectdoyoulikemore);
+        mediaPlayer = MediaPlayer.create(this, R.raw.whichsubjectdoyoulikemore);
         mediaPlayer.setLooping(false);
         mediaPlayer.start();
         Toast.makeText(this, "Audio Playing", Toast.LENGTH_SHORT).show();

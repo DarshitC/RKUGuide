@@ -88,11 +88,8 @@ public class DashboardActivity extends AppCompatActivity {
         reach.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(DashboardActivity.this, HowToReachActivity.class);
-                //Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo: 22.24012, 70.90085"));
-                //startActivity(intent);
-                String url = "https://www.makemytrip.com/";
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+                Intent intent = new Intent(DashboardActivity.this, HowToReachActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -144,21 +141,17 @@ public class DashboardActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.abutdeveloper:
-                Intent intent = new Intent(DashboardActivity.this, AboutDeveloper.class);
-                startActivity(intent);
-                return true;
-            case R.id.disclaimer:
-                AlertDialog.Builder alertDialog = new AlertDialog.Builder(DashboardActivity.this);
-                alertDialog.setTitle("Disclaimer");
-                alertDialog.setMessage(R.string.disclaimer);
-                alertDialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        dialogInterface.dismiss();
-                    }
-                });
-                alertDialog.show();
+            case R.id.wp:
+                String wpurl = "https://api.whatsapp.com/send?phone=+91 97124 89122";
+                try {
+                    PackageManager pm = getApplicationContext().getPackageManager();
+                    pm.getPackageInfo("com.whatsapp", PackageManager.GET_ACTIVITIES);
+                    Intent i = new Intent(Intent.ACTION_VIEW);
+                    i.setData(Uri.parse(wpurl));
+                    startActivity(i);
+                } catch (PackageManager.NameNotFoundException e) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(wpurl)));
+                }
                 return true;
             case R.id.yt:
                 String yturl = "https://www.youtube.com/channel/UCpBbJF7O4NhsvHxb5IZwWUQ";
@@ -175,6 +168,22 @@ public class DashboardActivity extends AppCompatActivity {
             case R.id.li:
                 String liurl = "https://in.linkedin.com/school/rkuniversity/";
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(liurl)));
+                return true;
+            case R.id.abutdeveloper:
+                Intent intent = new Intent(DashboardActivity.this, AboutDeveloper.class);
+                startActivity(intent);
+                return true;
+            case R.id.disclaimer:
+                AlertDialog.Builder alertDialog = new AlertDialog.Builder(DashboardActivity.this);
+                alertDialog.setTitle("Disclaimer");
+                alertDialog.setMessage(R.string.disclaimer);
+                alertDialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                    }
+                });
+                alertDialog.show();
                 return true;
             case R.id.logout:
                 logout();

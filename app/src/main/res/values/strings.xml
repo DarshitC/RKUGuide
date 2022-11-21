@@ -208,9 +208,8 @@
         rooms with attached washrooms, washing machines on each floor, badminton court, table tennis.
     </string>
     <string name="aboutGirlsHostel">There are five hostel buildings for girls.
-        \n\nHostels are good. We have 4 room mate in single room.
-        One table is provided in room. One bed is also provided. Two shelfs are provided for putting
-        some books. One almira is also provided.
+        \n\nHostels are good. One table is provided in room. One bed is also provided.
+        Two shelfs are provided for putting some books. One almira is also provided.
     </string>
     <string name="hostelRules">➠ A student must abide by the Hostel Policy, Rules and Code od Conduct at the
                 time of admission to the hostel.\n\n
@@ -295,6 +294,14 @@
         \n\n➠ If any feedback suggestion related to app contact RKU, ITs.
     </string>
 
+    <!-- TODO: Journey-->
+    <string name="journey">➠ RK University is located in the city called Rajkot in Gujarat state.
+        Rajkot is having a domestic airport with flights from Delhi, Mumbai, and Bengaluru.
+        Ahmedabad Airport is one of the biggest airports in the Gujarat state which is 228 KM
+        far away from Rajkot which takes approximately 5 hours by road.
+        \n\n➠ Kindly find convenient airports below if you are coming from foreign countries.
+    </string>
+
     <string name="prem_vadhavana">Prem Vadhavana</string>
     <string name="degree_c_e">Degree : C.E.</string>
     <string name="_21soece13078">21SOECE13078</string>
@@ -317,7 +324,7 @@
     <string name="hostel">Hostel</string>
     <string name="city">City</string>
     <string name="phrase">Phrase</string>
-    <string name="reach">How To Reach RKU</string>
+    <string name="reach">Journey To RKU</string>
     <string name="talk">Talk To Us</string>
     <string name="boys_hostel">Boys Hostel</string>
     <string name="girls_hostel">Girls Hostel</string>
@@ -396,5 +403,7 @@
     <string name="via_bus">Via Bus</string>
     <string name="via_train">Via Train</string>
     <string name="via_airplane">Via Airplane</string>
+    <string name="book_now">Book Now</string>
+    <string name="note">NOTE : We will redirect you to another page for booking</string>
 
 </resources>
